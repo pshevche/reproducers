@@ -1,0 +1,7 @@
+[versions]
+testng = "7.10.2"
+testng-junit-engine = "1.0.5"
+
+[libraries]
+testng = { module = "org.testng:testng", version.ref = "testng" }
+testng-junit-engine = { module = "org.junit.support:testng-engine", version.ref = "testng-junit-engine" }
