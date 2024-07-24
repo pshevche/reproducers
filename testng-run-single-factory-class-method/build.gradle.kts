@@ -19,4 +19,7 @@ java {
 
 tasks.named<Test>("test") {
     useJUnitPlatform()
+    filter {
+        includeTestsMatching("*FactoryTest.failingTest")
+    }
 }

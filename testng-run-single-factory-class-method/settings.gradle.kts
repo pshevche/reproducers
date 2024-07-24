@@ -10,4 +10,3 @@ develocity {
     }
 }
 rootProject.name = "testng-run-single-factory-class-method"
-include("lib")
