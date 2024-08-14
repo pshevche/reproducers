@@ -11,6 +11,6 @@ gradle.settingsEvaluated {
     pluginManager.apply(com.gradle.develocity.agent.gradle.DevelocityPlugin::class)
 
     develocity {
-        server = "<<DEVELOCITY_SERVER>>"
+        server = "https://dv-td-dogfooding.grdev.net"
     }
 }
