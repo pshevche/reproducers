@@ -26,6 +26,9 @@ java {
 
 tasks.named<Test>("test") {
     useJUnitPlatform()
+    // either option works: we will fetch the prediction, output selected/non-selected tests, but will not run any tests
+    dryRun = true
+    //systemProperty("junit.platform.execution.dryRun.enabled", true)
     develocity.predictiveTestSelection {
         enabled = true
         this as PredictiveTestSelectionConfigurationInternal
