@@ -3,7 +3,13 @@ import com.gradle.develocity.agent.gradle.test.JUnitXmlDialect
 
 val reportsDir = layout.buildDirectory.dir("reports/pytest")
 val pytest by tasks.registering(Exec::class) {
-    commandLine("pytest", "--junitxml=${reportsDir.get().asFile.absolutePath}/pytest.xml")
+    commandLine(
+        "pytest",
+        "--capture=tee-sys",
+        "-o",
+        "junit_logging=all",
+        "--junitxml=${reportsDir.get().asFile.absolutePath}/pytest.xml"
+    )
     outputs.dir(reportsDir)
 }
 
