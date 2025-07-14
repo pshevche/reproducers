@@ -3,6 +3,12 @@ plugins {
     id("com.gradle.develocity") version "4.0.2"
 }
 
-develocity.server = "<DEVELOCITY_INSTANCE>"
+develocity {
+    buildScan {
+        publishing.onlyIf {
+            false
+        }
+    }
+}
 rootProject.name = "testng-lifecycle-failures"
 include("app")
