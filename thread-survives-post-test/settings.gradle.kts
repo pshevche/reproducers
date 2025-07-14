@@ -1,0 +1,8 @@
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+    id("com.gradle.develocity") version "3.19"
+}
+
+develocity.server = "https://dv-td-dogfooding.grdev.net"
+rootProject.name = "thread-survives-post-test"
+include("lib")

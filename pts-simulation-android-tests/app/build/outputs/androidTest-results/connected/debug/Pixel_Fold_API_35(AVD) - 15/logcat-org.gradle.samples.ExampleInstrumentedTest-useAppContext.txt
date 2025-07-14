@@ -1,0 +1,2 @@
+02-26 16:07:27.115 17834 17861 I TestRunner: started: useAppContext(org.gradle.samples.ExampleInstrumentedTest)
+02-26 16:07:27.120 17834 17861 I TestRunner: finished: useAppContext(org.gradle.samples.ExampleInstrumentedTest)

@@ -1,0 +1,19 @@
+package org.example;
+
+import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+class FlakyTest {
+    @Test
+    void flakyTest() throws IOException {
+        Path markerFile = Paths.get("marker.txt");
+        if (!Files.exists(markerFile)) {
+            Files.createFile(markerFile);
+            throw new RuntimeException("Boom!");
+        }
+    }
+}

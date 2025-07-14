@@ -1,0 +1,5 @@
+org.gradle.samples.test.app-jetified-core-1.6.1-0 /Users/pshevche/.gradle/caches/8.12.1/transforms/d6d57e74009ff02546c56df5fb0a18e7/transformed/jetified-core-1.6.1/res
+org.gradle.samples.test.app-androidTest-1 /Users/pshevche/dev/reproducers/pts-simulation-android-tests/app/build/generated/res/resValues/androidTest/debug
+org.gradle.samples.test.app-mergeDebugAndroidTestResources-2 /Users/pshevche/dev/reproducers/pts-simulation-android-tests/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.gradle.samples.test.app-mergeDebugAndroidTestResources-3 /Users/pshevche/dev/reproducers/pts-simulation-android-tests/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.gradle.samples.test.app-debugAndroidTest-4 /Users/pshevche/dev/reproducers/pts-simulation-android-tests/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

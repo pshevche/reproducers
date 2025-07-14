@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.SlowSetupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-15T08:55:57.880Z" hostname="DQLFWVQQJX" time="10.000">
+    <properties/>
+    <testcase name="successfulTest1()" classname="org.example.SlowSetupTest" time="1.000"/>
+    <testcase name="successfulTest2()" classname="org.example.SlowSetupTest" time="2.000"/>
+    <testcase name="successfulTest3()" classname="org.example.SlowSetupTest" time="3.000"/>
+    <testcase name="successfulTest4()" classname="org.example.SlowSetupTest" time="4.000"/>
+    <system-out><![CDATA[]]></system-out>
+    <system-err><![CDATA[]]></system-err>
+</testsuite>

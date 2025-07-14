@@ -1,0 +1,3 @@
+org.gradle.samples.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

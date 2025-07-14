@@ -1,0 +1,2 @@
+org.gradle.samples.test:style/WhiteBackgroundTheme = 0x7f010001
+org.gradle.samples.test:style/WhiteBackgroundDialogTheme = 0x7f010000

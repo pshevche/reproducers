@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="org.gradle.samples.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.414" timestamp="2025-02-26T15:07:32" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_Fold_API_35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="useAppContext" classname="org.gradle.samples.ExampleInstrumentedTest" time="0.015" />
+</testsuite>
